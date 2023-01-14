@@ -16,9 +16,10 @@
 /.next/
 /out/
 
-# production
-/build
-/dist
+# build output
+/.output/
+/build/
+/dist/
 
 # misc
 .DS_Store
@@ -26,14 +27,15 @@
 .swc
 *.pem
 
-# debug
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
+# environment variables
 .env*.local
+.env.production
 
 # vercel
 .vercel

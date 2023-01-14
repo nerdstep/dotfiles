@@ -1,7 +1,5 @@
-.changeset
 .github
-.next
 coverage
 dist
 node_modules
-pnpm-lock.yaml
+*.d.ts

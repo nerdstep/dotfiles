@@ -1,9 +1,9 @@
+arrowParens: always
+bracketSameLine: true
+bracketSpacing: true
 printWidth: 80
-tabWidth: 2
-useTabs: false
 semi: false
 singleQuote: true
-bracketSpacing: true
-bracketSameLine: true
+tabWidth: 2
 trailingComma: es5
-arrowParens: always
+useTabs: false

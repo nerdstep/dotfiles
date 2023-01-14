@@ -1,8 +1,9 @@
 {
+  "editor.formatOnSave": false,
+  "editor.rulers": [80, 100],
   "editor.tabSize": 2,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
-  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
@@ -10,7 +11,9 @@
   "files.associations": {
     "[Dd]ockerfile*": "dockerfile",
     "docker-compose*": "yaml",
-    "*.env*": "dotenv"
+    "Jenkinsfile*": "jenkinsfile",
+    "*.env*": "dotenv",
+    "*.scss": "scss"
   },
   "editor.quickSuggestions": {
     "strings": true
@@ -35,11 +38,18 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }

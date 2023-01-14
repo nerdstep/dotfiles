@@ -1,0 +1,17 @@
+# directories
+/.github
+/.gitlab
+/.vscode
+/coverage
+/src
+
+# files
+.babelrc
+.editorconfig
+.eslintrc.json
+.gitattributes
+.gitignore
+.gitlab-ci.yml
+.prettierrc.yml
+tsconfig.json
+*.log
